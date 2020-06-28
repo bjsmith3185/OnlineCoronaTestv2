@@ -19,7 +19,8 @@ class Symptoms extends React.Component {
                 "Face Mask Tan.",
                 "Long Hair or Mullet.",
                 "Feeling Hot Outside.",
-                "Forgetting What Day It Is."
+                "Forgetting What Day It Is.",
+                "$1900 Monthly Grocery Bill"
             ],
             index: 0
         }
