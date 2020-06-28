@@ -9,7 +9,7 @@ const Index = (props) => (
   <Layout>
     <div>
       <h1>Corona Testing Online 2.0</h1>
-      <h5>Official 2nd wave tesing site.</h5>
+      <h5>Official 2nd wave testing site.</h5>
       <br/>
       {/* <p>To begin taking your personalized Corona evaluation, click "Test Now" in the navbar.</p> */}
       <Cases case={props.case} />
