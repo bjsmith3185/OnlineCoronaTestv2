@@ -27,7 +27,7 @@ Index.getInitialProps = async function() {
     
     const data = await res.json();
 
-    console.log("here")
+    console.log("North Carolina Corona Data")
     console.log(data);
     return {
         case: data

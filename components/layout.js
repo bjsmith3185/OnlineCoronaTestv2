@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 const Layout = (props) => (
   <div>
     <Head>
-      <title>Corona Title</title>
+      <title>Cov19-Online</title>
       <link
         rel="stylesheet"
         href="https://bootswatch.com/4/cerulean/bootstrap.min.css"
