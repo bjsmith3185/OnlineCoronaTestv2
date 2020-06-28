@@ -1,17 +1,23 @@
 import Fetch from 'isomorphic-unfetch';
 import Layout from '../components/layout';
 import Cases from '../components/Cases';
+import Symptoms from '../components/Symptoms';
+import TestButton from '../components/TestButton';
 
 
 const Index = (props) => (
   <Layout>
     <div>
-      <h1>Welcome to corona testing online!</h1>
-      <h5>The official CDCc tesing site.</h5>
+      <h1>Corona Testing Online 2.0</h1>
+      <h5>Official 2nd wave tesing site.</h5>
       <br/>
-      <p>To begin taking your personalized Corona evaluation, click "Test Now" in the navbar.</p>
+      {/* <p>To begin taking your personalized Corona evaluation, click "Test Now" in the navbar.</p> */}
       <Cases case={props.case} />
-      {/* <Prices bpi={props.bpi}/> */}
+      <br/>
+      <Symptoms/>
+      <br/>
+      <TestButton/>
+
     </div>
   </Layout>
 );

@@ -3,14 +3,14 @@ import Link from "next/link";
 const Navbar = () => (
     <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
     <div className="container">
-      <a className="navbar-brand" href="#">Corona Online Testing</a>
+      <a className="navbar-brand" href="#">Cov-19 Online Testing</a>
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <Link href="/"><a className="nav-link">Home</a></Link>
           </li>
           <li className="nav-item">
-            <Link href="/test"><a className="nav-link">Test Now</a></Link>
+            <Link href="/test"><a className="nav-link" style={{ color: 'red'}}>Test Now</a></Link>
           </li>
         </ul>
       </div>
