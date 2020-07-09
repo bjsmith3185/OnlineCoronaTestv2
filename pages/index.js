@@ -4,7 +4,7 @@ import Cases from '../components/Cases';
 import Symptoms from '../components/Symptoms';
 import TestButton from '../components/TestButton';
 import PictureBar from '../components/PictureBar';
-
+import Survey from '../components/Survey';
 
 
 const Index = (props) => (
@@ -16,13 +16,15 @@ const Index = (props) => (
       {/* <p>To begin taking your personalized Corona evaluation, click "Test Now" in the navbar.</p> */}
       <Cases case={props.case} />
       <br/>
+      <Survey />
+      <br/>
       <Symptoms/>
       <br/>
       <TestButton/>
       <br/>
       <PictureBar/>
       <br/>
-      <TestButton/>
+     
 
     </div>
   </Layout>

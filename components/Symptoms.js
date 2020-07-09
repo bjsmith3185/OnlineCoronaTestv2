@@ -56,7 +56,7 @@ render() {
     return (
         <div className={styles.sympComponent}>
 
-            <div className={styles.title}>New Side Effects May Include..</div>
+            <strong className={styles.title}>New Side Effects May Include..</strong>
 
             <div className={styles.sideEffects}>{this.state.symptomList[this.state.index]}</div>
 

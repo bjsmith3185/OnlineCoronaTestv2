@@ -1,0 +1,74 @@
+.surveyComponent {
+  border: 1px solid rgb(226, 224, 224);
+  border-radius: 5px;
+}
+
+.questionBlock {
+  position: relative;
+}
+
+.title {
+  margin-left: 20px;
+}
+
+.question {
+  margin-left: 25px;
+  font-size: 14px;
+  /* color: #2FA4E7; */
+  color: blue;
+  font-weight: bold;
+}
+
+.disclaimer {
+  margin-left: 7px;
+  font-size: 8px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 40px;
+
+  position: absolute;
+  top: 0;
+}
+
+.buttonGroup {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.greenButton {
+  background-color: #4caf50;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 5px;
+  width: 13%;
+  margin-right: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.redButton {
+  background-color: #da0f08;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 5px;
+  width: 13%;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.results {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.noResult {
+  margin-right: 10px;
+}
+
+.yesResult {
+  margin-left: 10px;
+}
