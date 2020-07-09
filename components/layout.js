@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "./navbar";
 
 const Layout = (props) => (
-  <div>
+  <div style={{background: "#F8F8FF"}}>
     <Head>
       <title>Cov19-Online</title>
       <link

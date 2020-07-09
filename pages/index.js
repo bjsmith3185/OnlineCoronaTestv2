@@ -3,18 +3,24 @@ import Layout from '../components/layout';
 import Cases from '../components/Cases';
 import Symptoms from '../components/Symptoms';
 import TestButton from '../components/TestButton';
+import PictureBar from '../components/PictureBar';
+
 
 
 const Index = (props) => (
   <Layout>
-    <div>
-      <h1>Corona Testing Online 2.0</h1>
+    <div  style={{background: "#F8F8FF"}}>
+      <h1>Corona Testing 2.0</h1>
       <h5>Official 2nd wave testing site.</h5>
       <br/>
       {/* <p>To begin taking your personalized Corona evaluation, click "Test Now" in the navbar.</p> */}
       <Cases case={props.case} />
       <br/>
       <Symptoms/>
+      <br/>
+      <TestButton/>
+      <br/>
+      <PictureBar/>
       <br/>
       <TestButton/>
 

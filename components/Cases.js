@@ -5,12 +5,15 @@ class Cases extends React.Component {
     byState: "NC",
   };
 
+  
+
   render() {
 
     let list = (
-        <li className="list-group-item">
-          <div>
-              <strong>Stats for North Carolina as of: {this.props.case.lastUpdateEt}.</strong>
+        <li className="list-group-item"
+        style={{background: "#F8F8FF"}}>
+          <div >
+              <strong>North Carolina stats as of: {this.props.case.lastUpdateEt.slice(0, 8)}</strong>
           </div>
 
           <div>

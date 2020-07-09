@@ -33,7 +33,7 @@ class Symptoms extends React.Component {
 
     myTimer = () => {
             if ( this.state.index > 11 ) {
-                console.log("index is over 10")
+                //console.log("index is over 10")
                 this.setState({index:0})
             }
 
@@ -41,8 +41,8 @@ class Symptoms extends React.Component {
         setTimeout(
             function() {
                 this.setState({index: this.state.index + 1});
-                console.log("after increase")
-                console.log(this.state.index)
+                // console.log("after increase")
+                // console.log(this.state.index)
                 this.myTimer();
             }.bind(this), 5000)
     }
