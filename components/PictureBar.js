@@ -28,7 +28,7 @@ class PictureBar extends React.Component {
 
 
   myTimer = () => {
-    if (this.state.index > 6) {
+    if (this.state.index > 5) {
       console.log("picture index is over 10");
       this.setState({ index: 0 });
     }
